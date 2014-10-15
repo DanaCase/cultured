@@ -1,0 +1,52 @@
+body {
+	background-color: #F8F8F8 ;
+}
+
+h1 {
+	margin-left: 1.5em;
+}
+
+.plate {
+	position:relative;
+	display:inline;
+	height:130.5px;
+	width:211.95px;
+}
+
+.plateinfo {
+	position:relative;
+	top:-4.5em;
+	margin-left: 3.5em;
+	font-family:'Myriad Pro', monospace;
+	font-size: 1.5em;
+}
+
+#split {
+	position:relative;
+	top: -.5em;
+	margin-left: -2em;
+	font-family:'Myriad Pro', monospace;
+	font-size: 1.5em;
+}
+
+img {
+	height: 130.5px;
+	width: 211.95px;
+}
+
+.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 0.5px;
+}
+ 
+.node text { 
+	font: 12px sans-serif; 
+}
+ 
+.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+}
+
